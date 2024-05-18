@@ -1,4 +1,5 @@
 # Electricity Demand Prediction Model Deployment for SEWA
+SEWA - Sharjah Electricity and Water Authority
 
 This repository contains code for deploying an electricity demand prediction model using XGBoost, which demonstrated the best performance among several tried and tested models. The model is deployed using Streamlit and hosted on Render.
 
@@ -53,5 +54,3 @@ streamlit run app.py
 Access the deployed application on Render at [link-to-render-app](https://energyprediction.onrender.com).
 
 ---
-
-Feel free to adjust and expand upon this template to suit your specific deployment needs!

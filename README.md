@@ -1,4 +1,4 @@
-# Electricity Demand Prediction Model Deployment
+# Electricity Demand Prediction Model Deployment for SEWA
 
 This repository contains code for deploying an electricity demand prediction model using XGBoost, which demonstrated the best performance among several tried and tested models. The model is deployed using Streamlit and hosted on Render.
 

@@ -11,7 +11,7 @@ model = load_model()
 
 # Streamlit app
 def main():
-    st.title("Average Hourly Energy Consumption Prediction")
+    st.title("Average Hourly Energy Consumption Prediction for SEWA")
 
     #taking inputs from the user
     day = st.selectbox('Day', ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
@@ -34,7 +34,7 @@ def main():
         prediction = model.predict(input_data)
         st.markdown(f"""
         <div 
-            <h2 style="font-size: 18px; text-align: center;">Predicted Average Energy Consumption per hour</h2>
+            <h2 style="font-size: 18px; text-align: center;">Predicted Average Energy Consumption per hour in MW</h2>
             <p style="font-size: 32px; text-align: center;">
                 <span>{prediction[0]:.2f}</span>
             </p>
